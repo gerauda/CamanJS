@@ -2658,7 +2658,7 @@ function hex2RGBA(hex,op){
       var height = this.canvas.height;
   
       if (typeof exports !== "undefined" && exports !== null) {
-          canvas = new Canvas.Canv(width, height);
+          canvas = new Canvas.Canvas(width, height);
       } else {
           canvas = document.createElement('canvas');
           canvas.width = width;
